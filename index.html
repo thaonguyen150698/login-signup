@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+	<title>Thao Nguyen's Resume</title>
+	<style>	
+		header{
+			margin:1%;
+			padding:1%;
+		}
+		body{
+			width: 1400px;
+			max-width:95%;
+			margin:auto;
+		}
+		h1{
+			font-size:300%;
+		}
+		h3{
+			float:center;
+			background:rgb(255,182,193);
+		}
+		h4{
+			float:center;
+
+		}
+		.column{
+			float:left;
+		}
+		.left{
+			width:75%;
+		}
+		.right{
+			width:25%;
+		}
+		.row:after{
+			content:"";
+			display:table;
+			clear:both;
+		}
+		section{
+			font-size:120%;
+			float:right;
+			position: absolute;
+			top:0;
+			right:0;
+			margin:2%;
+			padding:3%;
+		}
+		.hidden{
+			display:none;
+		}
+	</style>
+	<link rel="stylesheet" href="style.css">
+	<script src="./script.js"></script>
+</head>
+<body>
+	<header onclick="newStyle();">
+	<h1 class="centered" id="logo">THAO T. NGUYEN</h1>
+	</header>
+	<section>
+		<p>77 University Cresent
+		<br>Winnipeg, MB Canada
+		<br>+1 2043336515
+		<br>thaonguyen150698@gmail.com
+		</p>
+	</section>
+	<div class="row">
+		<div class="column left">
+		<h3>WORK EXPERIENCE</h3>
+		<input type="checkbox" name="chk" id="chk" onclick="showLocation()"/>
+		<label for="chk">Show/hide location</label>
+		<br/>
+		<h4 class="hidden">The Coffee Factory, Ho Chi Minh City, VietNam - Cashier</h4>
+		<p>June 2016 - November 2016
+		<br>Collected payment from the customers, recorded the amount received,  and issued receipts to customers.  At the end of the shift, recorded  amounts received and prepared a report of transactions, read and  recorded totals shown on cash register tape and verified against cash on  hand. 
+		</p>
+		<h4 class="hidden">Khab Tapioca, Winnipeg, Manitoba - Barista and Cashier</h4>
+		<p>November 2018 - December 2019
+		<br>Complete daily tasks such as preparing, making drinks and provide  excellent customer service. Working independently mostly but also a  good teamplayer when the store gets busy. Ensure store’s cleaning  standards and safety food practices are met.</p>
+		</div>
+		<div class="column right">
+		<h3>LANGUAGES</h3>
+		<ul>
+		<li>English(fluent)</li>
+		<li>Vietnamese</li>
+		</ul>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column left">
+		<h3>EDUCATION</h3>
+		<h4>University of Manitoba - Bachelor of Science in Computer Science</h4>
+		<p>June 2018-Present</p>
+		<h4>International College of Manitoba</h4>
+		<p>April 2017-May 2018</p>
+		<h4>Red River College - General Arts</h4>
+		<p>January 2017-April 2017</p>
+		<h4>International School of Ho Chi Minh City - High School Diploma</h4>
+		<p>September 2013-June 2016</p>
+		</div>
+		<div class="column right">
+		<h3>SKILLS</h3>
+		<p>Great communication skills
+		<br>Works well in team environments
+		<br>Enthusiastic
+		<br>Learns quickly
+		<br>Proficiently use point of sale systems
+		</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column left">
+		<h3>VOLUNTEER EXPERIENCE</h3>
+		<h4>Canada Games - Information Technology Representative</h4>
+		<p>July 2017-August 2017
+		<br>Planned and coordinated all venue technology requirements such as  computers, printers, sound systems etc.  Checked in/out radio  communication devices for event team members.
+		</p>
+		<h4>GIN(Global Issues Network) - Team Member</h4>
+		<p>Fall 2014-Summer 2016
+		<br>Raised money to purchase a multitude of essentials for impoverished  children and adults in Vietnam. Monitored children in games and events  held for fun
+		</p>
+		</div>
+		<div class ="column right">
+		<h3>AWARDS</h3>
+		<p>English Acquisition Achievement Award(2014/2016)
+		<br>Perfect Attendance Certificate(2014/2015/2016)
+		<br>Honour Roll Certificate(2013-2016)
+		</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column left">
+		<h3>PROJECTS</h3>
+		<h4>Word Frequency Reader - Analysis of a .txt file</h4>
+		<p>Team member of a group project involving writing code in Python to  read a .txt file and calculate word frequency of repeated words in a  passage.</p>
+		<h4>Password Generator - Storage and Generation of User Password</h4>
+		<p>Team member of a group project to write code in Python to store a  strong password for a user -- utilising capitals and symbols;
+		<br>Determination of  password strength based on a known decoder.
+		</p>
+		</div>
+		<div class="column right">
+		<h3>PROGRAMMING SKILLS</h3>
+		<ul>
+		<li>Java</li>
+		<li>Python</li>
+		<li>C language</li>
+		<li>Assembly(LC3)</li>
+		<li>HTML and CSS</li>
+		</ul>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column left">
+		<h3>REFERENCES</h3>
+		<p>Available upon request</p>
+		</div>
+		<div class="column right">
+		<h3>INTERESTS</h3>
+		<ul>
+		<li>Cooking</li>
+		<li>Programming</li>
+		<li>Volunteering</li>
+		<li>Travelling</li>
+		</ul>
+		</div>
+	<div>
+</body>
+</html>
